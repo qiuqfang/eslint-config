@@ -1,6 +1,6 @@
 {
   "name": "@qiuqfang/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@qiuqfang/eslint-config-basic": "*",
-    "@qiuqfang/eslint-config-react": "*"
+    "@qiuqfang/eslint-config-react": "*",
+    "@qiuqfang/eslint-config-typescript": "*"
   }
 }
