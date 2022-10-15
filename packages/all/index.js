@@ -5,4 +5,7 @@ module.exports = {
   react: {
     extends: ["@qiuqfang/eslint-config-react"],
   },
+  typescript: {
+    extends: ["@qiuqfang/eslint-config-typescript"],
+  },
 };

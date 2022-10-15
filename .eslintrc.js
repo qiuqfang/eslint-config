@@ -4,7 +4,7 @@ module.exports = {
     node: true,
     es2021: true,
   },
-  extends: ["@qiuqfang/basic", "@qiuqfang/react"],
+  extends: ["@qiuqfang/basic", "@qiuqfang/react", "@qiuqfang/typescript"],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
