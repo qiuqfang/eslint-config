@@ -1,17 +1,17 @@
 {
   "name": "@qiuqfang/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --access=public"
+    "release": "npm publish --access=public"
   },
   "author": "qiuqfang",
   "license": "ISC",
   "dependencies": {
-    "@qiuqfang/eslint-config-basic": "*",
-    "@qiuqfang/eslint-config-react": "*",
-    "@qiuqfang/eslint-config-typescript": "*"
+    "@qiuqfang/eslint-config-basic": "latest",
+    "@qiuqfang/eslint-config-react": "latest",
+    "@qiuqfang/eslint-config-typescript": "latest"
   }
 }
