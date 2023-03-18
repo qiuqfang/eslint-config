@@ -5,7 +5,9 @@ module.exports = {
     "plugin:react/jsx-runtime", // 解决react17后的jsx语法问题
   ],
   settings: {
-    "version": "detect", // 自动选择已安装的版本
+    react: {
+      "version": "detect", // 自动选择已安装的版本
+    }
   },
   rules: {
     "react/prop-types": 1,
