@@ -57,6 +57,32 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@qiuqfang/eslint-config-basic@latest":
+  version "0.0.5"
+  resolved "https://registry.npmmirror.com/@qiuqfang/eslint-config-basic/-/eslint-config-basic-0.0.5.tgz#5693911e1137107eeab0317d289189c571eea308"
+  integrity sha512-xb/Pm3tKsO+224m4H7RPdUD8YYwSs0dRtWZ16KBy5QuvMFrJJYJTlPxHwpXrHYeWtM8+atTwT19vcbWBtQgyDw==
+  dependencies:
+    eslint-config-prettier "^8.5.0"
+    eslint-plugin-import "^2.26.0"
+    eslint-plugin-prettier "^4.2.1"
+    prettier "^2.7.1"
+
+"@qiuqfang/eslint-config-react@latest":
+  version "0.0.5"
+  resolved "https://registry.npmmirror.com/@qiuqfang/eslint-config-react/-/eslint-config-react-0.0.5.tgz#a8c0c3eeefdb33a04fb46634b26656b712ef8e54"
+  integrity sha512-vvLKuVXOEUJ9BvErte05qeGgVVVUcSYYWjmaw4QHGgW6bUj8ILlyxXYvWwanU75wN2h+41M/LqeXx7RF/81nMA==
+  dependencies:
+    eslint-plugin-react "^7.30.1"
+    eslint-plugin-react-hooks "^4.6.0"
+
+"@qiuqfang/eslint-config-typescript@latest":
+  version "0.0.5"
+  resolved "https://registry.npmmirror.com/@qiuqfang/eslint-config-typescript/-/eslint-config-typescript-0.0.5.tgz#26ea07813ca36db462518374df583712b6e65ad1"
+  integrity sha512-5YQNwDp4Ts9NcxEj4rpOLoxbXTczB4Xgh2UI+FRVSMJKSgICC4OBxs7VgRBmq9dbHqme063EtDR5jepBaxRpHQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.40.0"
+    "@typescript-eslint/parser" "^5.40.0"
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
