@@ -1,7 +1,7 @@
 {
   "name": "eslint-config",
   "private": true,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "workspaces": [
@@ -9,13 +9,15 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm run release --workspaces"
+    "release": "bumpp -r",
+    "publish": "npm run release --workspaces"
   },
   "keywords": [],
   "author": "qiuqfang",
   "license": "ISC",
   "devDependencies": {
     "@qiuqfang/eslint-config": "*",
+    "bumpp": "^9.1.1",
     "eslint": "^8.22.0"
   }
 }

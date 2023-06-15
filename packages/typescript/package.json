@@ -1,6 +1,6 @@
 {
   "name": "@qiuqfang/eslint-config-typescript",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0"
+    "@typescript-eslint/parser": "^5.59.11"
   },
   "description": ""
 }
