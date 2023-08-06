@@ -6,10 +6,8 @@ module.exports = {
   ],
   settings: {
     react: {
-      "version": "detect", // 自动选择已安装的版本
-    }
+      version: "detect", // 自动选择已安装的版本
+    },
   },
-  rules: {
-    "react/prop-types": 1,
-  },
+  rules: {},
 };
