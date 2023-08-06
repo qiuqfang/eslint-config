@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "bumpp -r",
-    "publish": "npm run release --workspaces"
+    "bumpp": "bumpp -r",
+    "release": "npm run release --workspaces"
   },
   "keywords": [],
   "author": "qiuqfang",
