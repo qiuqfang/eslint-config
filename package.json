@@ -1,7 +1,7 @@
 {
   "name": "eslint-config",
   "private": true,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
   "workspaces": [
@@ -17,6 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "@qiuqfang/eslint-config": "*",
-    "bumpp": "^9.1.1"
+    "bumpp": "^9.1.1",
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.1"
   }
 }
