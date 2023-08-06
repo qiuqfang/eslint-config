@@ -1,17 +1,18 @@
 {
   "name": "@qiuqfang/eslint-config",
   "version": "0.0.7",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm publish --access=public"
   },
   "author": "qiuqfang",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@qiuqfang/eslint-config-basic": "latest",
     "@qiuqfang/eslint-config-react": "latest",
     "@qiuqfang/eslint-config-typescript": "latest"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
