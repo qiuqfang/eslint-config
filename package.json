@@ -2,7 +2,7 @@
   "name": "eslint-config",
   "private": true,
   "version": "0.0.12",
-  "description": "",
+  "description": "My ESLint Config",
   "main": "index.js",
   "workspaces": [
     "packages/*"
@@ -14,11 +14,19 @@
   },
   "keywords": [],
   "author": "qiuqfang",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@qiuqfang/eslint-config": "*",
     "bumpp": "^9.1.1",
     "eslint": "^8.46.0",
     "prettier": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuqfang/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiuqfang/eslint-config/issues"
+  },
+  "homepage": "https://github.com/qiuqfang/eslint-config#readme"
 }
